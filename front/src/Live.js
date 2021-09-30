@@ -19,7 +19,7 @@ export const Live = (props) => {
 
     const interval = setInterval(async () => {
       const { lat, lng, fecha } = await consulta(
-        "http://localhost:4000/mensaje"
+        "http://tuipaqui:4000/mensaje"
       );
       setLocation({
         lat,
