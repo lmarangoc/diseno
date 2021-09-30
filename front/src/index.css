@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  flex: 1;
+  margin-right: 0px;
+  margin-left: 0px;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  left: 5%;
+  top: 0px;
+  z-index: 10;
+}
+.map {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  justify-content: space-around;
+  padding: 0px 70px;
+  align-items: center;
+  background-color: rgb(2, 133, 255);
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 0px 2px;
+}
+
+.link:hover {
+  border-bottom: 2px solid white;
+}
+
+.item-live-1 {
+  width: 80%;
+}
+
+.item-live-2 {
+  width: 20%;
+}
+
+.date-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: center;
+}
+
+.date-pick {
+  width: 250px;
+  margin: 10px 0px;
+}
+
+.btn {
+  width: 250px;
+  margin: 10px 0px;
+  background-color: rgb(2, 133, 255);
+  outline: none;
+  border: none;
+  height: 25px;
+  color: #000;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: rgb(3, 113, 216);
+}
