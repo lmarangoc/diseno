@@ -56,7 +56,7 @@ export const History = (props) => {
     <div className="container">
       <div className="navbar">
         <div className="item-live-1">
-          <p>Localización | GEOCAB</p>
+          <p>Localización | GeoCab</p>
         </div>
         <div className="item-live-2">
           <Link className="link" to="/">
