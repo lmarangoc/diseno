@@ -39,7 +39,7 @@ export const Live = (props) => {
       <div className="navbar">
         <div className="item-live-1">
           <p>
-            Localización | GEOCAB | Latitud:{location.lat} | Longitud:
+            Localización | GeoCab | Latitud:{location.lat} | Longitud:
             {location.lng} | Fecha: {new Date(location.fecha).toLocaleString()}
           </p>
         </div>
