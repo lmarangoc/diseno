@@ -30,7 +30,7 @@ function CustomMap({ data, poly, center, width, onClick, canClick, canMove }) {
   }, []);
 
   useEffect(() => {
-    canMove && map.current?.setView(center, 10, {});
+    canMove && map.current?.panTo(center);
   }, [center]);
 
   return (
@@ -63,7 +63,7 @@ function CustomMap({ data, poly, center, width, onClick, canClick, canMove }) {
       {poly && poly[0] && <Polyline positions={poly} />}
 
       {canClick && circle.lat !== 0 && circle.lng !== 0 && (
-        <Circle center={circle} fillColor="red" radius={1200} />
+        <Circle center={circle} fillColor="red" radius={30} />
       )}
     </MapContainer>
   );
