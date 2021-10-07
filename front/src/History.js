@@ -56,7 +56,7 @@ export const History = (props) => {
     <div className="container">
       <div className="navbar">
         <div className="item-live-1">
-          <p>Localización | GPSSMSTRCK</p>
+          <p>Localización | GEOCAB</p>
         </div>
         <div className="item-live-2">
           <Link className="link" to="/">
@@ -73,7 +73,7 @@ export const History = (props) => {
               const { result } = await consulta2(
                 "http://localhost:4000/interval",
                 {
-                  r: 0.0001,
+                  r: 0.00000001,
                   lat_c: e.latlng.lat,
                   lng_c: e.latlng.lng,
                 }
