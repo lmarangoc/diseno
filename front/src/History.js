@@ -24,7 +24,7 @@ export const History = (props) => {
     async (e) => {
       const url = `http://localhost:4000/interval/${cond}`;
       const { result } = await consulta2(url, {
-        r: 0.0001, // Variar
+        r: 0.00000001, // Variar
         lat_c: e.latlng.lat,
         lng_c: e.latlng.lng,
         ti: t1,
