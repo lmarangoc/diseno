@@ -74,7 +74,7 @@ function CustomMap({
       {poly2 && poly2[0] && <Polyline positions={poly2} color="red" />}
 
       {canClick && circle[0] !== 0 && circle[1] !== 0 && (
-        <Circle center={circle} radius={1200} />
+        <Circle center={circle} radius={100} />
       )}
     </MapContainer>
   );
