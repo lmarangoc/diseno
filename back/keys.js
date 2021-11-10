@@ -1,8 +1,8 @@
 const db = {
-  host: "database-1.cmlwdskqtfdl.us-east-2.rds.amazonaws.com",
+  host: "host",
   port: "3306",
   user: "admin",
-  password: "L200107325a",
+  password: "password",
   database: "data",
 };
 
