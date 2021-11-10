@@ -4,7 +4,7 @@ CREATE TABLE Locations (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     latitude DECIMAL(10,7),
     longitude DECIMAL(10,7),
-    rpm DECIMAL(10,7),
+    rpm DECIMAL(6,2),
     fecha BIGINT,
     conductor BIGINT
 );
