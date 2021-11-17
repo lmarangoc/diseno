@@ -96,7 +96,7 @@ export const Live = () => {
                     marginBottom: 10,
                   }}
                 >
-                  <option value="0">Ninguno</option>
+                  <option value="0">Ambos</option>
                   <option value="1">Conductor 1</option>
                   <option value="2">Conductor 2</option>
                 </select>
